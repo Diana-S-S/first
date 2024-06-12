@@ -1,0 +1,288 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #F2F2F2;
+    box-sizing: border-box;
+}
+
+.container {
+width: 1280px;
+margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header_flex{
+    height: 171px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700; 
+    line-height: 25px;
+
+}
+
+.nav-links {
+    border-spacing: 50px;
+}
+
+.nav-links a {
+    margin: 0 48px;
+}
+
+.nav-links li {
+    display:inline;
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    color: 000000;
+}
+
+.nav-links li a { 
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: auto;
+    gap: 10px;
+    
+} 
+
+/*ABOUT ME*/
+
+.aboutme{
+    text-align: center;
+    height: 841px;
+}
+
+.img1 {
+    width: 1040px;
+    height: 360px;
+}
+
+.aboutme {
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 86px;
+    line-height: 108px;
+    text-align: center;
+    color: #000000;
+}
+
+p {
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #000000;
+}
+
+/*MY WORKS*/
+
+h2{
+font-size: 22px;
+text-align: center;
+}
+
+.myworks_flex{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 16px;
+    margin-left: 16px;
+    width: 1039px;
+    padding-left: 120px;
+    
+}
+
+.mywork_tile {
+    width: 325px;
+    height: 486px;
+    background-color: white;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 24px;
+}
+
+.mywork_text {
+    text-align: left;
+    padding-left: 24px;
+    padding-top: 44px;
+}
+
+.mywork_tile img{
+    width: 100%;
+    max-width: 325px;
+    border-top: 24px;
+}
+
+/*WORK PROCESS*/
+
+.work_process{
+    width: 1280px;
+    background-color: E4E4E4;
+}
+
+.item_heading {
+    font-size: 56px;
+    font-style: italic;
+}
+
+.item_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding: 0 0px 20px o;
+}
+
+.item_number{
+font-size: 22px;
+border-radius: 50%;
+width: 34px;
+padding: 5px;
+border: 2px solid;
+text-align: center;
+}
+
+.item_para{
+    padding: 0;
+    text-align: left;
+}
+
+.work_process_item{
+    width: 100%;
+    max-width: 1016px;
+    margin: 0 auto;
+}
+
+.work_process {
+    background-color: #e4e4e4;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+/*MESSAGE CONTENT*/
+
+.message_content{
+    width: 1280px;
+    background-color: #282828;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+
+}
+
+.white_letter{
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#name {
+    background-color: #373737;
+    border-radius: 8px;
+    width: 242px;
+    height: 45px;
+
+}
+
+#e-mail {
+    background-color: #373737;
+    border-radius: 8px;
+    width: 242px;
+    height: 45px;
+
+}
+
+#message{
+    background-color: #373737;
+    border-radius: 8px;
+    width: 504px;
+    height: 82px;
+    font-size: 18px;
+}
+
+.button_send_message{
+    width: 198;
+    height: 63;
+    border-radius: 12px;
+    color: white;
+    background-color: #373737;
+    border: 2px solid white;
+    font-size: 20px;
+
+}
+
+/*FOOTER*/
+
+.footer_flex{
+    width: 1280px;
+    height: 117px;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo_footer{
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    font-style: bold;
+    color: #FFFFFF;
+    font-weight: 700; 
+    line-height: 25px;
+
+}
+
+.footer-links {
+    border-spacing: 50px;
+}
+
+.footer-links a {
+    margin: 0 48px;
+}
+
+.footer-links li {
+    display:inline;
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-links li a { 
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
